@@ -1,10 +1,15 @@
+body {
+  background-color: #fafafa;
+}
 .topo {
   background-color: #ffffff;
   display: flex;
   width: 100%;
   height: 54px;
-  border-radius: 1px;
+  border: 1px solid #dbdbdb;
   flex-wrap: nowrap;
+  position: fixed;
+  z-index: 1;
 }
 .topo ion-icon {
   font-size: 20px;
@@ -31,6 +36,7 @@
   margin-left: 10px;
   margin-top: 17.38px;
 }
+
 .Pesquisar {
   margin-left: 214px;
   margin-top: 13px;
@@ -38,7 +44,7 @@
   width: 215px;
   color: #fafafa;
   border-radius: 3px;
-  border-color: #dbdbdb;
+  border-color: #dbdbdbdb;
   box-sizing: 1px solid #dbdbdb;
 }
 
@@ -72,25 +78,28 @@ div.pesquisar {
   height: 19px;
 }
 .container {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 2000px;
-  margin-right: 10%;
+
+  margin-left: 216px;
+  margin-right: 500px;
   overflow: hidden;
 }
+
 .stories {
   display: flex;
   background-color: #ffffff;
   justify-content: center;
-  width: 609px;
+  width: 604px;
   height: 118px;
   margin-top: 6%;
   overflow: hidden;
   justify-content: space-between;
   padding-left: 18px;
-  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  margin-right: 538px;
 }
 
 .storie {
@@ -148,7 +157,7 @@ div.pesquisar {
   background-color: #ffffff;
   margin-top: 10%;
   position: relative;
-  border-radius: 3px;
+  border: 1px solid #dbdbdb;
 }
 .pic:nth-child(3) {
   height: 670px;
@@ -160,7 +169,6 @@ div.pesquisar {
   width: 100%;
   height: 60px;
   position: relative;
-  border-radius: 1px;
 }
 .imgcontaine {
   position: absolute;
@@ -277,10 +285,10 @@ div.pesquisar {
   overflow: hidden;
 }
 .sidebar {
-  background-color: #e5e5e5;
-  width: 361px;
+  background-color: #fafafa;
+  width: 350px;
   margin-top: 34px;
-
+  margin-right: 67px;
   height: 530px;
   margin-left: 5%;
 
@@ -290,10 +298,10 @@ div.pesquisar {
   margin-top: 90px;
 }
 .topoBar {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
   height: 10%;
   display: flex;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 15px;
 }
 h3 {
@@ -320,16 +328,15 @@ h2 {
   margin-top: 10%;
 }
 .topo2 {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
   display: flex;
   justify-content: space-between;
   height: 100%;
 }
 .divisa1 {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
   width: 50%;
   height: 60%;
-  background-color: #e5e5e5;
 }
 .blocosBar {
   display: flex;
@@ -373,9 +380,10 @@ h1 {
   color: #8e8e8e;
 }
 .divisa2 {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
   width: 50%;
   height: 60%;
+  margin-left: 50px;
 }
 .divisa2 p {
   margin-left: 29px;
