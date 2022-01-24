@@ -1,0 +1,415 @@
+.topo {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 54px;
+  border-radius: 1px;
+  flex-wrap: nowrap;
+}
+.topo ion-icon {
+  font-size: 20px;
+}
+.logoSec ion-icon {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #000000;
+}
+.inst {
+  margin-left: 221.19px;
+  margin-top: 17.38px;
+  color: #000000;
+  width: 19px; /*depois tem que ver aqui com o TUTOR pra ajeitar o tamanho*/
+}
+.barra-pequena-vertical {
+  height: 22px;
+  width: 1px;
+  background-color: #dbdbdb;
+  margin-top: 17.38px;
+  margin-left: 11.38px;
+}
+.logo {
+  margin-left: 10px;
+  margin-top: 17.38px;
+}
+.pesquisar::placeholder {
+  height: 28px;
+  width: 215px;
+  color: #fafafa;
+  box-sizing: 1px solid #dbdbdb;
+}
+div.pesquisar {
+  background-color: #fafafa;
+  padding-inline-start: 1px;
+  margin-top: 13px;
+  border-radius: 3px;
+  border-color: #dbdbdb;
+}
+.pesquisar {
+  width: 215px;
+  height: 28px;
+  margin-left: 214px;
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #979797;
+}
+.logoSec {
+  color: #000000;
+  margin-top: 18px;
+  margin-left: 224px;
+  justify-content: space-around;
+  height: 19px;
+}
+.container {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 2000px;
+  margin-right: 10%;
+  overflow: hidden;
+}
+.stories {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  width: 614px;
+  height: 118px;
+  margin-top: 6%;
+  overflow: hidden;
+  justify-content: space-between;
+  padding-left: 18px;
+  border-radius: 5px;
+}
+
+.storie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-left: 4px;
+  margin-top: 11px;
+}
+.storie img:nth-child(8) {
+  overflow: hidden;
+}
+.storie p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #262626;
+}
+.stories ion-icon {
+  font-size: 34px;
+  color: #ffffff;
+  position: absolute;
+  padding-left: 579px;
+  padding-top: 32px;
+}
+.boxImg img:first-child {
+  width: 66px;
+  height: 66px;
+}
+.boxImg {
+  width: 76px;
+  height: 76px;
+  background-image: url(stories_background.jpg);
+  background-size: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.boxImg img {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+.imgcontainer {
+  display: flex;
+}
+
+.imagens {
+  width: 612px;
+  height: 749px;
+  background-color: #ffffff;
+  margin-top: 10%;
+  position: relative;
+}
+.pic:nth-child(3) {
+  height: 670px;
+  width: 612px;
+}
+.topoIMG {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  border-radius: 1px;
+}
+.imgcontaine {
+  position: absolute;
+}
+video {
+  height: 900px;
+  /*não consigo entender*/
+}
+.icon3 ion-icon {
+  margin-left: 17.03px;
+  width: 16.5px;
+  height: 17px;
+  margin-top: 3.44px;
+  color: #000000;
+  border: 1.38px;
+  font-size: 34px;
+}
+.icon3 ion-icon:nth-child(4) {
+  margin-left: 475px;
+}
+
+.barked {
+  display: flex;
+}
+
+.barked img {
+  width: 32px;
+  height: 32px;
+  margin-top: 15px;
+  margin-left: 17px;
+  position: absolute;
+}
+.barked p {
+  margin-top: 21px;
+  margin-left: 15px;
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  position: absolute;
+  left: 50px;
+}
+.barked ion-icon {
+  margin-left: 575px;
+  margin-top: 29.5px;
+}
+.pic video {
+  width: 100%;
+  height: 612px;
+  margin-top: 0;
+  background-color: #ffffff;
+}
+/*flaar com o tutor de como ficou o video*/
+.conversation {
+  background-color: #ffffff;
+  height: 76px;
+}
+.coments {
+  display: flex;
+}
+.coments img {
+  width: 20px;
+  height: 20px;
+  margin-top: 13.44px;
+  margin-left: 17px;
+}
+.coments p {
+  margin-top: 12.07px;
+  margin-left: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+  line-height: 16.41px;
+}
+.coments strong {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.imagensCUT {
+  overflow: hidden;
+}
+/*mostrar essa parte pro meu tutor ... pq não foi*/
+.imgcontainer {
+  overflow: hidden;
+}
+.sidebar {
+  background-color: #e5e5e5;
+  width: 360px;
+  margin-top: 34px;
+
+  height: 530px;
+  margin-left: 5%;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 90px;
+}
+.topoBar {
+  background-color: #e5e5e5;
+  height: 10%;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15px;
+}
+h3 {
+  margin-left: 11px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: grey;
+}
+
+h2 {
+  margin-top: 17px;
+  margin-left: 11px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.legendas {
+  margin-top: 10%;
+}
+.topo2 {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.divisa1 {
+  background-color: #e5e5e5;
+  width: 50%;
+  height: 60%;
+  background-color: #e5e5e5;
+}
+.blocosBar {
+  display: flex;
+}
+.blocosBar p {
+  display: flex;
+  margin-left: 11px;
+  margin-top: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #262626;
+}
+.blocosBar h4 {
+  display: flex;
+  margin-left: 11px;
+  margin-top: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #8e8e8e;
+}
+
+.divisa1 img {
+  width: 32px;
+  height: 32px;
+  margin-top: 17px;
+}
+h1 {
+  margin-left: 29px;
+  margin-top: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #8e8e8e;
+}
+.divisa2 {
+  background-color: #e5e5e5;
+  width: 50%;
+  height: 60%;
+}
+.divisa2 p {
+  margin-left: 29px;
+  margin-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #139ef2;
+  line-height: 14.06px;
+}
+.divisa2 h1 {
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #262626;
+}
+.legendasbar {
+  display: flex;
+  margin-top: 324px;
+}
+@media (max-width: 945px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (max-width: 614px) {
+  .sidebar {
+    display: none;
+  }
+  .barra-pequena-vertical {
+    display: none;
+  }
+  .pesquisar::placeholder {
+    display: none;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .logoSec:nth-child(2) {
+    display: none;
+  }
+  .logoSec:nth-child(3) {
+    display: none;
+  }
+  .logoSec:nth-child(4) {
+    display: none;
+  }
+  .stories {
+    width: 100%;
+  }
+  .imgcontainer {
+    width: 100%;
+  }
+  .imagens {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+
+  .stories ion-icon {
+    display: none;
+  }
+}
