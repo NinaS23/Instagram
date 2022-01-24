@@ -3,7 +3,7 @@
   display: flex;
   width: 100%;
   height: 54px;
-  border-radius: 1px solid  #DBDBDB;
+  border-radius: 1px;
   flex-wrap: nowrap;
 }
 .topo ion-icon {
@@ -405,7 +405,10 @@ h1 {
     width: 900px;
     height: 54px;
   }
-  
+  .logoSec {
+    display: flex;
+  }
+}
 @media (max-width: 614px) {
   .sidebar {
     display: none;
