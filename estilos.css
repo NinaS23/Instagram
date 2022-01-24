@@ -4,10 +4,9 @@ body {
 .topo {
   background-color: #ffffff;
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 54px;
   border: 1px solid #dbdbdb;
-  flex-wrap: nowrap;
   position: fixed;
   z-index: 1;
 }
@@ -20,7 +19,7 @@ body {
   color: #000000;
 }
 .inst {
-  margin-left: 221.19px;
+  margin-left: 585px;
   margin-top: 17.38px;
   color: #000000;
   width: 19px; /*depois tem que ver aqui com o TUTOR pra ajeitar o tamanho*/
@@ -44,7 +43,6 @@ body {
   width: 215px;
   color: #fafafa;
   border-radius: 3px;
-  border-color: #dbdbdbdb;
   box-sizing: 1px solid #dbdbdb;
 }
 
@@ -64,13 +62,26 @@ div.pesquisar {
   margin-top: 14px;
   display: flex;
   justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #979797;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
 }
+
+.Pesquisar::placeholder {
+  font-family: "Roboto";
+  font-family: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #979797;
+}
+
 .logoSec {
+  display: flex;
   color: #000000;
   margin-top: 18px;
   margin-left: 224px;
@@ -92,7 +103,7 @@ div.pesquisar {
   display: flex;
   background-color: #ffffff;
   justify-content: center;
-  width: 604px;
+  width: 608px;
   height: 118px;
   margin-top: 6%;
   overflow: hidden;
@@ -114,8 +125,8 @@ div.pesquisar {
   overflow: hidden;
 }
 .storie p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14.06px;
@@ -193,21 +204,21 @@ div.pesquisar {
   margin-top: 3px;
 }
 .conversas p {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   text-decoration: none;
   font-size: 16px;
 }
 .conversas strong {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
 }
 .conversas h6 {
   margin-top: 3px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 13px;
   color: #99a6c3;
 }
@@ -227,8 +238,8 @@ div.pesquisar {
   margin-top: 21px;
   margin-left: 15px;
   color: #262626;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
@@ -263,16 +274,16 @@ div.pesquisar {
 .coments p {
   margin-top: 12.07px;
   margin-left: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #000000;
   line-height: 16.41px;
 }
 .coments strong {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
@@ -288,7 +299,7 @@ div.pesquisar {
   background-color: #fafafa;
   width: 350px;
   margin-top: 34px;
-  margin-right: 67px;
+  margin-right: 287px;
   height: 530px;
   margin-left: 5%;
 
@@ -306,8 +317,8 @@ div.pesquisar {
 }
 h3 {
   margin-left: 11px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 16.41px;
@@ -317,8 +328,8 @@ h3 {
 h2 {
   margin-top: 17px;
   margin-left: 11px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
@@ -345,8 +356,8 @@ h2 {
   display: flex;
   margin-left: 11px;
   margin-top: 18px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
@@ -356,8 +367,8 @@ h2 {
   display: flex;
   margin-left: 11px;
   margin-top: 3px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14.06px;
@@ -372,8 +383,8 @@ h2 {
 h1 {
   margin-left: 29px;
   margin-top: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 14.06px;
@@ -388,8 +399,8 @@ h1 {
 .divisa2 p {
   margin-left: 29px;
   margin-top: 40px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #139ef2;
@@ -397,8 +408,8 @@ h1 {
 }
 .divisa2 h1 {
   margin-left: 30px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 14.06px;
@@ -417,6 +428,7 @@ h1 {
     display: flex;
   }
 }
+
 @media (max-width: 614px) {
   .sidebar {
     display: none;
@@ -448,6 +460,7 @@ h1 {
   }
   .imgcontainer {
     width: 100%;
+    margin-left: 0;
   }
   .imagens {
     width: 100%;
